@@ -1,0 +1,266 @@
+/* 1 */
+
+/* GENERAL THINGS */
+
+html {
+    font-size: 10px;
+}
+
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    color: #11999E;
+    display: inline-block;
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 1.4rem;
+    text-decoration: none;
+    transition: color 0.3s linear;
+}
+
+a:hover {
+    color: #eaf6f6;
+    transition: all 0.3s linear;
+}
+
+p {
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 1.4rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 13rem; 
+    margin-bottom: 3rem;
+    color: #66BFBF;
+}
+
+h2 {
+    font-size: 4rem; 
+    margin-bottom: 6rem;
+}
+
+h3 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+h4 {
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+}
+
+h5 {
+    font-size: 1.8rem; 
+    margin-bottom: 0.9rem;
+}
+
+h6 {
+    font-size: 1.6rem; 
+    margin-bottom: 0.8rem;
+}
+
+ul {
+    list-style: none;
+}
+
+ul, ol {
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 1.4rem;
+    padding-left: 0;
+}
+
+hr {
+    margin: 0 auto;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: RGBA(102, 191, 191, 0.4);
+    width: 5%;
+}
+
+/* GENERAL THINGS */
+
+/* 2 */
+
+/* CONTAINERS */
+
+.container {
+    padding: 4.6rem 0;
+}
+
+/* CONTAINER 1 */
+
+.container1 {
+    background-color: #eaf6f6;
+    position: relative;
+    padding-top: 14rem;
+    padding-bottom: 0;
+}
+
+.container1 h2 {
+    margin-bottom: 2rem;
+}
+
+.profile-pic {
+    width: 230px;
+    height: 230px;
+    border-radius: 115px;
+}
+
+.container1 .clouds {
+    position: absolute;
+    top:0px; 
+    left:0px; 
+    right:0px; 
+    bottom:0px;
+}
+
+.cloud {
+    height: 15vh;
+    width: 15vw;
+}
+
+.top-cloud {
+    position: absolute;
+    left: 200px;
+    top: 250px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+/* CONTAINER 2 */
+
+.container2 .introduction-section  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.container2 .introduction-section .profile-pic {
+    margin-right: 3.5rem;
+}
+
+
+/* CONTAINER 3 */
+
+.container3 .skills-section  {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    flex-direction: row-reverse;
+}
+
+.container3 .skills-section .profile-pic {
+    margin-left: 3.5rem;
+    order: 2;
+}
+
+.container3 .skills-section .skills-list > h5 {
+    margin-bottom: 1.4rem;
+}
+
+.container3 .skills-section .skills-list.first {
+    order: 1;
+}
+
+.container3 .skills-section .skills-list.second {
+    order: 3;
+}
+
+.container3 .skills-section .skills-list li:not(:last-child) {
+    margin-bottom: 1.4rem;
+}
+
+/* CONTAINER 4 */
+
+.container4 .interests-section  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.container4 .interests-section .profile-pic {
+    margin-right: 3.5rem;
+}
+
+.container4 .interests-section h4 {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #66BFBF;
+    padding: 4.6rem 0;
+}
+
+.footer .links-section ul li {
+    display: inline-block;
+}
+
+.footer .links-section ul li:not(:last-child) {
+    margin-right: 4rem;
+}
+
+.footer .copyright {
+    font-size: 1.4rem;
+    color: aliceblue;
+    margin-bottom: 0;
+}
+/* CONTAINERS */
+
+/* 3 */
+
+/* BUTTON */
+
+.back-home {
+    margin-top: 25px;
+}
+
+.btn {
+    color: #11999E;
+    border: 2px solid;
+    border-color: #11999E;
+    border-radius: 0.8rem;
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    transition: color 0.3s linear, background-color 0.3s linear;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #11999E;
+    text-decoration: none;
+    transition: color 0.3s linear, background-color 0.3s linear;
+}
+
+/* 4 */
